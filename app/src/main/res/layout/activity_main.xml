@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Enter no 1"
+        android:inputType="number"
+        android:minHeight="48dp"
+
+        tools:ignore="MissingConstraints,DuplicateClickableBoundsCheck"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="90dp" />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Enter no 2"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="185dp" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="228dp"
+        android:layout_height="57dp"
+        android:text="Addition"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="286dp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="377dp"
+        android:visibility="invisible"/>
+</LinearLayout>
